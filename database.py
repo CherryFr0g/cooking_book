@@ -1,7 +1,7 @@
 from sqlalchemy import String, create_engine
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 
-engine = create_engine("sqlite:///cooking_book.db", echo=True)
+engine = create_engine("sqlite:///cooking_book.db")
 
 
 class Base(DeclarativeBase):
