@@ -1,3 +1,6 @@
 cooking_book.db
 .venv
 .idea/
+DB
+__pycache__
+.env
